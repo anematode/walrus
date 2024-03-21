@@ -138,6 +138,7 @@ impl Module {
             multi_value: true,
             bulk_memory: true,
             simd: true,
+            relaxed_simd: true,
             threads: !config.only_stable_features,
             multi_memory: true,
             ..WasmFeatures::default()
